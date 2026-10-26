@@ -3,29 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eddie</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Lone Starfish</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
-        
+
         <!-- Website header -->
-      <header id="home">
-        <img src="images/eddie.jpg" alt="Eddie" class="profile-image">
-        <h1>Eddie</h1>
-      </header>
+        <header id="home">
+            <img src="images/starfish-banner.jpg" alt="Starfish underwater">
+            <h1>Lone Starfish</h1>
+        </header>
 
-      <!-- Navigation -->
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#story">STORY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
 
-      <main>
-        <!-- About section -->
-        <article id="about">
-          <h2>About Eddie</h2>
-         
+        <main>
+            <!-- Starfish article -->
+            <article id="story">
+                <h2>Life of a Starfish</h2>
+
+                <img class="article-image" src="images/starfish.jpg" alt="Orange starfish">
+
+                <p>
+                    Starfish, also known as sea stars, are fascinating
+                    marine animals found in oceans around the world.
+                    They live in a variety of habitats, from shallow
+                    coastal waters to the deep sea. Starfish are
+                    recognized by their unique star-shaped bodies
+                    and their ability to regenerate lost arms.
+                </p>
+
+                <p>
+                    Most starfish have five arms, although some
+                    species have many more. They move using
+                    hundreds of tiny tube feet located underneath
+                    their bodies. Starfish feed on animals such
+                    as clams, mussels, and other small marine
+                    creatures. They play an important role in
+                    maintaining healthy ocean ecosystems.
+                </p>
+            </article>
+
+            <!-- Facts section -->
+            <section class="facts">
+                <h2>Facts About Starfish</h2>
+                <ul>
+                    <li>Starfish are also called sea stars.</li>
+                    <li>Most starfish have five arms.</li>
+                    <li>Starfish can regenerate lost arms.</li>
+                    <li>They use tiny tube feet to move.</li>
+                </ul>
+            </section>
+
+            <!-- Contact form -->
+            <section id="contact">
+                <h2>Contact to learn more</h2>
+
+                <form action="#" method="get">
+
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message"></textarea>
+
+                    <fieldset>
+                        <legend>Would you like to visit the starfish?</legend>
+
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="visit" value="yes">
+
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="visit" value="no">
+
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" id="maybe" name="visit" value="maybe">
+                    </fieldset>
+
+                    <button type="submit">SEND</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; Lone Starfish.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
