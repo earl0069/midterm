@@ -30,8 +30,28 @@
             <li>Eddie has beautiful yellow-green eyes.</li>
             <li>Eddie loves chips.</li>
         </ul>
-        <form action="" method="">
-            
+        <form action="#" method="get">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <fieldset>
+                <legend>Would you like to visit Eddie?</legend>
+                
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="visit" value="yes">
+
+                <label for="no">No</label>
+                <input type="radio" id="no" name="visit" value="no">
+
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="maybe" name="visit" value="maybe">
+            </fieldset>
         </form>
         <footer>
             <p>&copy; Copyright 2026 Eddie</p>
