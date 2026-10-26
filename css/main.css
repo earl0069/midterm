@@ -42,8 +42,6 @@ header h1 {
     text-align: center;
 }
 
-object-fit: cover;
-
 nav ul {
     display: flex;
     list-style: none;
