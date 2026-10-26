@@ -41,4 +41,35 @@ header h1 {
     margin: 0;
     text-align: center;
 }
+
 object-fit: cover;
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    width: 33.33%;
+    text-align: center;
+    border-right: 1px solid #888;
+    margin: 0;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+}
+
+nav a:hover {
+    background-color: #b8d6d2;
+}
