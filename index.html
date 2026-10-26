@@ -4,58 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eddie the Cat</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <!-- set width, center the element -->
     <div class="wrapper">
-        <header>
-            <h1>Eddie</h1>
-            <img src="images/eddie-banner.jpg" alt="White fence">
+
+        <header id="home">
+            <img src="images/eddie-banner.jpg" alt="Banner" class="banner">
+            <h1>Eddie the Cat</h1>
         </header>
+
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Story</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#story">STORY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
-        <article class="clearfix">
-            <img src="images/eddie.jpg" alt="Eddie the cat">
-            <p>Eddie is a long-haired grey cat with beautiful yellow-green eyes and a personality of his own. With his soft fur and adorable face, he has a way of getting everyone's attention. Whether he's lounging around the house or watching everything happening around him, Eddie always seems to be enjoying himself. He loves finding comfortable places to relax and spending his days doing what cats do best.</p>
-            <p>One of Eddie's favourite things to do is get comfortable and observe his surroundings. He can often be found curled up under the bed or resting on his humans lap. His curious eyes and fluffy tail make him especially charming. Although he enjoys his quiet moments, Eddie also has a playful and curious side. He brings plenty of personality into everyday life and makes even the simplest moments entertaining.</p>
-        </article>
-        <ul class="facts">
-            <li>Eddie has long grey hair.</li>
-            <li>Eddie has beautiful yellow-green eyes.</li>
-            <li>Eddie loves chips.</li>
-        </ul>
-        <form action="#" method="get">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name">
 
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email">
+        <main>
+            <article id="story">
+                <h2>Life of Eddie</h2>
 
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message"></textarea>
+                <img src="images/eddie.jpg" alt="A photo of Eddie" class="story-image">
 
-            <fieldset>
-                <legend>Would you like to visit Eddie?</legend>
-                
-                <label for="yes">Yes</label>
-                <input type="radio" id="yes" name="visit" value="yes">
+                <p>
+                    Meet Eddie, a lovable cat with a big personality.
+                    Eddie enjoys spending his days relaxing in his
+                    favourite spots around the house, watching the
+                    world outside, and getting plenty of attention.
+                    Whether he is curled up for a nap or exploring
+                    his surroundings, Eddie always finds a way
+                    to make everyday life more entertaining.
+                </p>
 
-                <label for="no">No</label>
-                <input type="radio" id="no" name="visit" value="no">
+                <p>
+                    One of Eddie's favourite activities is finding
+                    a comfortable place to sleep. Like most cats,
+                    he enjoys his quiet time, but he also has
+                    moments when he becomes playful and curious.
+                    His personality makes him a special part of
+                    the family, bringing happiness and laughter
+                    into the home.
+                </p>
 
-                <label for="maybe">Maybe</label>
-                <input type="radio" id="maybe" name="visit" value="maybe">
-            </fieldset>
-        </form>
+                <p>
+                    Eddie has a way of making even the simplest
+                    moments memorable. From his adorable
+                    expressions to his funny habits, there is
+                    always something to love about him.
+                    Life with Eddie is full of affection,
+                    entertainment, and unforgettable memories.
+                </p>
+            </article>
+
+            <section class="facts">
+                <h2>Facts About Eddie</h2>
+                <ul>
+                    <li>Eddie loves finding comfortable places to nap.</li>
+                    <li>He enjoys watching everything happening around him.</li>
+                    <li>Eddie has a curious and playful personality.</li>
+                    <li>He is a very special member of the family.</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact to learn more</h2>
+
+                <form action="#" method="get">
+
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message"></textarea>
+
+                    <p>Would you like to meet Eddie?</p>
+
+                    <div class="radio-options">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="visit" value="yes">
+
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="visit" value="no">
+
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" id="maybe" name="visit" value="maybe">
+                    </div>
+
+                    <button type="submit">SEND</button>
+
+                </form>
+            </section>
+        </main>
+
         <footer>
-            <p>&copy; Copyright 2026 Eddie</p>
+            <p>&copy; Eddie the Cat.</p>
         </footer>
+
     </div>
 </body>
 </html>
