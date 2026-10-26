@@ -178,3 +178,9 @@ button {
 button:hover {
     background-color: #dcb6ce;
 }
+
+footer {
+    text-align: right;
+    padding: 14px 26px 28px;
+    font-size: 14px;
+}
