@@ -102,3 +102,14 @@ article p {
     margin-top: 0;
     margin-bottom: 12px;
 }
+
+.facts h2 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.facts ul {
+    padding-left: 13px;
+    margin-top: 0;
+    font-size: 14px;
+}
